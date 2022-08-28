@@ -51,7 +51,7 @@ div.container {
     var(--bg-color) 40%
   );
   width: 100%;
-  height: 100vh;
+  height: 98vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -187,7 +187,7 @@ span.username {
   font-size: 14px;
   font-weight: 700;
 }
-section.media-cards h1 {
+section.media-cards h2 {
   margin-top: 20px;
   font-size: 2.5rem;
 }
