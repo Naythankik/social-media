@@ -144,14 +144,14 @@ input:checked + .slider:before {
 /* ends here */
 
 /* the cards styling starts here */
-section.media-cards {
+div.media-cards {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, auto);
   gap: 20px;
   align-items: center;
 }
-section.media-cards article {
+div.media-cards article {
   background: var(--card-bg-color);
   width: 100%;
   text-align: center;
@@ -162,17 +162,17 @@ section.media-cards article {
 article:hover {
   filter: invert(0.1);
 }
-section.media-cards article:first-child {
+div.media-cards article:first-child {
   border-top: 4px solid var(--facebook-shadow);
 }
-section.media-cards article:nth-child(2) {
+div.media-cards article:nth-child(2) {
   border-top: 4px solid var(--twitter-shadow);
 }
-section.media-cards article:nth-child(3) {
+div.media-cards article:nth-child(3) {
   border-top: 4px solid var(--instagram-shadow-1);
 }
 
-section.media-cards article:last-child {
+div.media-cards article:last-child {
   border-top: 4px solid var(--youtube-shadow);
 }
 div.media-handle {
@@ -187,11 +187,11 @@ span.username {
   font-size: 14px;
   font-weight: 700;
 }
-section.media-cards h2 {
+div.media-cards h2 {
   margin-top: 20px;
   font-size: 2.5rem;
 }
-section.media-cards p {
+div.media-cards p {
   margin-bottom: 20px;
   font-size: 13px;
   letter-spacing: 0.2rem;
@@ -199,7 +199,7 @@ section.media-cards p {
   color: var(--handle-color);
   text-transform: uppercase;
 }
-section.media-cards span.date {
+div.media-cards span.date {
   font-weight: bold;
   position: relative;
   font-size: 12px;
@@ -240,7 +240,7 @@ h3 {
   color: var(--h3-color);
 }
 
-section.reviews-cards {
+div.reviews-cards {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -356,10 +356,10 @@ article.mini-card:nth-child(6) span.review-rate::before {
     top: 60%;
     transform: translate(0%, 70%);
   }
-  section.media-cards {
+  div.media-cards {
     grid-template-columns: auto;
   }
-  section.media-cards article {
+  div.media-cards article {
     background: var(--card-bg-color);
     width: 100%;
   }
@@ -367,7 +367,7 @@ article.mini-card:nth-child(6) span.review-rate::before {
   div.bottom-container {
     gap: 30px;
   }
-  section.reviews-cards {
+  div.reviews-cards {
     grid-template-columns: auto;
     gap: 10px;
   }
